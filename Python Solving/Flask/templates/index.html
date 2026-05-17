@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Main Page</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Flask<span>App</span>
+        </div>
+
+        <ul class="nav-links">
+
+            <!-- Main Page redirects to index -->
+
+            <li><a href="/index">Main Page</a></li>
+
+            <li><a href="/about">About</a></li>
+
+            <li><a href="#">Services</a></li>
+
+            <li><a href="#">Projects</a></li>
+
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Welcome to Flask Main Page
+            </h1>
+
+            <p>
+                Build modern, responsive, and scalable web applications
+                using Python and the Flask framework.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="/index">
+
+                    <button class="btn-primary">
+                        Go to Index Page
+                    </button>
+
+                </a>
+
+                <a href="/about">
+
+                    <button class="btn-secondary">
+                        Explore About
+                    </button>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Features Section -->
+
+    <section class="features-section">
+
+        <h2>
+            Why Use Flask?
+        </h2>
+
+        <div class="features">
+
+            <div class="card">
+
+                <h2>Fast Development</h2>
+
+                <p>
+                    Create powerful applications quickly with minimal code.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Flexible Framework</h2>
+
+                <p>
+                    Build APIs, websites, dashboards, and ML applications.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Python Powered</h2>
+
+                <p>
+                    Use Python’s simplicity and power for web development.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 FlaskApp | Designed with Flask & Python
+        </p>
+
+    </footer>
+
+</body>
+</html>
