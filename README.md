@@ -8,9 +8,6 @@
 <img src="https://skillicons.dev/icons?i=python,tensorflow,sklearn,flask,docker,aws,azure,mongodb,git,github,vscode,linux&theme=dark&perline=12" alt="Tech Stack Icons" />
 
 <br/><br/>
-
-![Stars](https://img.shields.io/github/stars/prathamxz/Data-Science-Practice?style=for-the-badge&color=7c3aed&labelColor=1e1b4b&label=Stars)
-![Forks](https://img.shields.io/github/forks/prathamxz/Data-Science-Practice?style=for-the-badge&color=059669&labelColor=064e3b&label=Forks)
 ![Last Commit](https://img.shields.io/github/last-commit/prathamxz/Data-Science-Practice?style=for-the-badge&color=db2777&labelColor=500724&label=Updated)
 </div>
 
