@@ -15,10 +15,15 @@ def about():
     return render_template('about.html')
 
 # Variable rule
-@app.route ('/success/<score>')
+@app.route ('/success/<int:score>')
 def success(score):
-    return "The marks u got is "+score
-
+    res = ""
+    if score >=50:
+        res = "Passed"
+    else:
+        res = "Failed"
+    return render_template('result.html',results = res)
+     
 
 
 if __name__ == '__main__':
