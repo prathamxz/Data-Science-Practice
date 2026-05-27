@@ -41,8 +41,6 @@ petal_width = st.sidebar.slider(
     float(df['petal width (cm)'].max())
 )
 
-
-
 input_data = [[sepal_length,sepal_width,petal_length,petal_width ]]
 
 # Prediction
