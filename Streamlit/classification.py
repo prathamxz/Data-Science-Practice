@@ -47,7 +47,5 @@ input_data = [[sepal_length,sepal_width,petal_length,petal_width ]]
 prediction = model.predict(input_data)
 predicted_species = target_name[prediction[0]]
 
-
 st.write("Prediction")
 st.write(f"The predicted species is: {predicted_species}")
-
